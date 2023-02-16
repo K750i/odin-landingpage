@@ -104,3 +104,45 @@ nav a {
     border: 5px solid hsl(223, 100%, 70%);
     border-radius: 20px;
 }
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    background: #e5e7eb;
+    height: 350px;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-container p:first-of-type {
+    position: relative;
+    margin: 0;
+}
+
+.quote-container p:first-of-type::before {
+    content: open-quote;
+    font-family: "Times New Roman", serif;
+    font-size: 120px;
+    color: silver;
+    position: absolute;
+    top: -50px;
+    left: -80px;
+}
+
+.quote-container p:first-of-type::after {
+    content: close-quote;
+    font-family: "Times New Roman", serif;
+    font-size: 120px;
+    color: silver;
+    position: absolute;
+    left: 60px;
+}
+
+.quote-container p:last-of-type {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+    margin: 0;
+}
