@@ -187,3 +187,14 @@ nav a {
     color: inherit;
     cursor: pointer;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    height: 100px;
+}
