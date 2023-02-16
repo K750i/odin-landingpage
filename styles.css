@@ -146,3 +146,44 @@ nav a {
     text-align: right;
     margin: 0;
 }
+
+.action-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-call {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #3882f6;
+    width: 1000px;
+    padding: 50px 150px;
+    color: white;
+}
+
+.action-call p {
+    margin: 0;
+}
+
+.action-call p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-call p:last-child {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.action-call button {
+    background: #3882f6;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+}
